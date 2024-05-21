@@ -9,12 +9,16 @@ ROS1
 # install
 ```
 mkdir -p catkin_ws/src
+```
 ```  
 cd catkin_ws/src
 ```
+```
 git clone git@github.com:tx-lidar/odom2txt.git
+```
 ```  
 cd ..
+```
 ```
 catkin_make
 ```  
