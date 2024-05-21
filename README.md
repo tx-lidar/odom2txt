@@ -7,11 +7,17 @@ ubuntu18.04 or ubuntu20.04
 ROS1
 
 # install
-mkdir -p catkin_ws/src  
-cd catkin_ws/src  
-git clone git@github.com:tx-lidar/odom2txt.git  
-cd ..  
-catkin_make  
+```
+mkdir -p catkin_ws/src
+```  
+cd catkin_ws/src
+```
+git clone git@github.com:tx-lidar/odom2txt.git
+```  
+cd ..
+```
+catkin_make
+```  
 
 # param
 ```
