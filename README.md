@@ -14,7 +14,9 @@ cd ..
 catkin_make  
 
 # param
+```
 <param name="aloam_topic" value="yourtopic1"/>  
 <param name="liosam_topic" value="yourtopic2"/>  
 <param name="ALOAM_file" value="/xxx/xxx/1.txt"/>  
 <param name="LIOSAM_file" value="/xxx/xxx/2.txt"/>
+```
