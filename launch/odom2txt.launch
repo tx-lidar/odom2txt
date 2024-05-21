@@ -1,0 +1,7 @@
+<launch>
+<node pkg="save_odom" type="odom2txt" name="odom2txt" output="screen"/>
+<param name="aloam_topic" value="/laser_odom_to_init"/>
+<param name="liosam_topic" value="/lio_sam_6axis/mapping/odometry"/>
+<param name="ALOAM_file" value="/xxx/xxx/1.txt"/>
+<param name="LIOSAM_file" value="/xxx/xxx/2.txt"/>
+</launch>
