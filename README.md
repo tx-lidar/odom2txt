@@ -30,3 +30,12 @@ catkin_make
 <param name="ALOAM_file" value="/xxx/xxx/1.txt"/>  
 <param name="LIOSAM_file" value="/xxx/xxx/2.txt"/>
 ```
+# use evo
+## Trajectory comparison
+```
+evo_traj tum ALOAM.txt liosam_odom.txt -p
+```
+## relative error
+```
+evo_rpe tum ALOAM.txt liosam_odom.txt -p
+```
